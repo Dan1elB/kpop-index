@@ -1,0 +1,82 @@
+.map-container {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  overflow: scroll;
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.map-header {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2rem;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 25px;
+}
+
+.jvectormap-container {
+  height: 550px;
+  
+}
+
+.map {
+  margin: 0 auto;
+}
+
+.jvectormap-zoomin, .jvectormap-zoomout {
+  display: none;
+}
+
+svg {
+  height: 550px;
+  overflow: scroll;
+}
+
+.legend-title {
+  margin-bottom: 8px;
+  margin-left: 20px;
+  font-size: 1em;
+  letter-spacing: .025em;
+}
+
+.legend {
+  width: 50%;
+  max-width: 274px;
+  overflow: scroll;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  display: grid;
+  grid-gap: 1.25%;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.level-1 {
+  background-color: #E5D1F9;
+  padding-top: 13%;
+  
+}
+
+.level-2 {
+  background-color: #A667E5;
+}
+
+.level-3 {
+  background-color: #843DCC;
+}
+
+.level-4 {
+  background-color: #661AB2;
+}
+
+.level-5 {
+  background-color: #5606A5;
+}
+
+.scale {
+  font-size: 0.7em;
+  text-align: center;
+  color: #5f6368;
+}
